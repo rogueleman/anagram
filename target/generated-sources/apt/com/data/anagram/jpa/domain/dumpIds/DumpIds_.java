@@ -1,10 +1,8 @@
-package com.anagram.jpa.domain.dumpIds;
+package com.data.anagram.jpa.domain.dumpIds;
 
 import javax.annotation.Generated;
 import javax.persistence.metamodel.SingularAttribute;
 import javax.persistence.metamodel.StaticMetamodel;
-
-import com.data.anagram.jpa.domain.dumpIds.DumpIds;
 
 @Generated(value = "org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor")
 @StaticMetamodel(DumpIds.class)

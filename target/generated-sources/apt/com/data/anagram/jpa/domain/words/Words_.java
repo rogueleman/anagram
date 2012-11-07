@@ -1,8 +1,6 @@
-package com.anagram.jpa.domain.words;
+package com.data.anagram.jpa.domain.words;
 
-import com.data.anagram.jpa.domain.words.Words;
 import com.lib.anagram.Language;
-
 import javax.annotation.Generated;
 import javax.persistence.metamodel.SingularAttribute;
 import javax.persistence.metamodel.StaticMetamodel;
