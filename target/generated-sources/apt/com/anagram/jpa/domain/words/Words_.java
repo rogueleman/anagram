@@ -1,5 +1,6 @@
 package com.anagram.jpa.domain.words;
 
+import com.lib.Language;
 import javax.annotation.Generated;
 import javax.persistence.metamodel.SingularAttribute;
 import javax.persistence.metamodel.StaticMetamodel;
@@ -13,6 +14,7 @@ public abstract class Words_ {
 	public static volatile SingularAttribute<Words, String> wordWithoutDiacritics;
 	public static volatile SingularAttribute<Words, String> sortedWordChars;
 	public static volatile SingularAttribute<Words, String> word;
+	public static volatile SingularAttribute<Words, Language> lang;
 
 }
 
